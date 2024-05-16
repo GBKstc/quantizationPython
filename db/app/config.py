@@ -2,9 +2,9 @@
 
 class Config:
     DEBUG = True
-    DB_HOST = "192.168.18.66"
+    DB_HOST = "121.40.219.160"
     DB_PORT = 3306
-    DB_USER = "erpdevelop"
-    DB_PASSWORD = "123456"
-    DB_NAME = "erp_product"
+    DB_USER = "aliyunWeb"
+    DB_PASSWORD = "Aa123456"
+    DB_NAME = "python_web"
     DB_TIMEOUT = 10

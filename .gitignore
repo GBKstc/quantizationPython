@@ -1,0 +1,11 @@
+__pycache__/
+
+
+# Editor directories and files
+.idea
+.vscode
+.history
+yarn.lock
+
+
+project.private.config.json
