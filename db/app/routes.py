@@ -21,7 +21,7 @@ def get_company_detail_by_id():
     company_id = request.args.get('id', type=int)
     if not company_id:
         return jsonify({"error": "Missing company ID"}), 400
-    return f"SELECT * FROM Companies WHERE id = {company_id}"
+    return f"SELECT * FROM Companies WHERE CompanyID = {company_id}"
   
 @api_blueprint.route('/getCustomerList', methods=['GET'])
 @with_database_query()
@@ -33,7 +33,7 @@ def get_customer_details():
     customer_id = request.args.get('id', type=int)
     if not customer_id:
         return jsonify({"error": "Missing customer ID"}), 400
-    return f"SELECT * FROM Customers WHERE id = {customer_id}"
+    return f"SELECT * FROM Customers WHERE CustomerID = {customer_id}"
    
    
 
